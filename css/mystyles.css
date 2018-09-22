@@ -149,7 +149,7 @@ transition:.25s all ease-out;
 
 .cambio{
     height: 170px;
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: bold;
 }
 .cambio div {
@@ -220,7 +220,7 @@ transition:.25s all ease-out;
     min-height: 650px;
 }
 .titulopasos{
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: bold;
     padding-top: 40px;
     padding-bottom: 80px;
@@ -232,10 +232,10 @@ transition:.25s all ease-out;
 }
 .textopasos{
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 400;
 }
 .titulovalores{
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: bold;
     padding-top: 40px;
     padding-bottom: 80px;
@@ -255,7 +255,8 @@ transition:.25s all ease-out;
 
 .titulovalores div {
     border: 3px solid black;
-    width: 670px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .textovalores2{
@@ -491,7 +492,7 @@ footer{
 
 .textoproduct1{
     color:#736F70;
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 600;
     padding-top: 20px;
     
@@ -502,7 +503,7 @@ footer{
 }
 
 .textoproduct0{
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 600;
     line-height: 60px; 
     
@@ -521,14 +522,6 @@ footer{
 .frosparal{
     max-height: 300px;
 }
-
-@media (max-width: 576px){
-	.textoproduct1{  
-        font-size: 60px;
-        
-    }
-}
-
 .textoproduct2{
     color:#736F70;
     font-size: 35px;
@@ -540,6 +533,23 @@ footer{
     font-size: 25px;
     font-weight: 400;
 }
+@media (max-width: 576px){
+	.textoproduct1{  
+        font-size: 40px;
+        
+    }
+    .textoproduct0{
+        font-size: 40px;
+    }
+    .textoproduct2{
+        font-size: 30px;
+    }
+    .textoproduct3{
+        font-size: 20px;
+    }
+}
+
+
 .colortexto1{
     color: #DD6A13;
 }
@@ -569,7 +579,7 @@ footer{
     border-radius: 30px;
     width: 150px;
     position: relative;
-    z-index: 3000;
+    z-index: 1000;
     font-size: 30px;
     margin-bottom: 40px;
     color:white;
@@ -610,6 +620,10 @@ footer{
     font-weight: 400;
     padding-top: 60px;
     line-height: 50px;
+}
+/*para dejar un tamaño entre lineas mas pequeño en el texto conoce más sobre ellos*/
+.txtconoce{
+    line-height: 0px;
 }
 
 

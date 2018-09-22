@@ -135,7 +135,7 @@
     <section id="diferen" class="valores">
         <div  class="container-fluid">
             <div class="row">
-                <div class="col-12 text-center titulovalores d-flex justify-content-center"><div>Valores diferenciales</div></div> 
+                <div class="col-12 text-center titulovalores d-flex justify-content-center"><div><p>Valores diferenciales</p></div></div>
             </div>
             <div class="row">
                 <div class="col-lg-6">
@@ -187,7 +187,7 @@
 <section id="products" class="productos">
     <div  class="container-fluid">
             <div class="row">
-                <div class="col-12 text-center titulovalores d-flex justify-content-center"><div>Productos</div></div>
+                <div class="col-12 text-center titulovalores d-flex justify-content-center"><div><p>Productos</p></div></div>
             </div>
     </div>
 </section>
@@ -198,12 +198,12 @@
     <div class="col-xl-6">
         <div class=" Tfros">
             <div class="col-xl-12">
-                <div class="textoproduct1 text-center "><p id="t1">TÉ SABOR </p></div>
+                <div class="textoproduct1 text-center "><p id="t1">Fross Tea </p></div>
             </div>
         </div>
         <div>
             <div class="col-xl-12">
-                <div class="textoproduct0 text-center"><p id="t2" class="colortexto1">DURAZNO </p>  <div class="borde"></div></div>
+                <div class="textoproduct0 text-center"><p id="t2" class="colortexto1">Durazno </p>  <div class="borde"></div></div>
                
             </div>
         </div>
@@ -246,7 +246,7 @@
         <div class="container-fluid tconoce">
             
             <div class="row">
-                <div class="txtconoce col-12 text-center">
+                <div class="col-12 text-center">
                    <p>Conoce más sobre ellos</p>
                    
                 </div>
@@ -411,7 +411,7 @@
     
                             </form>
 
-                           <!-- <div class="alerta text-center">
+                            <div class="alerta text-center">
                                     <?php
                                            if (!empty($_SESSION["error"])) {
                                                echo "<span class='alert alert-danger center-block'>" . $_SESSION["error"] . "</span>";
@@ -419,8 +419,8 @@
                                                echo "<span class='alert alert-success center-block'>" . $_SESSION["message"] . "</span>";
                                            }
                                            session_unset();
-                                           ?>
-                                   </div>-->
+                                    ?>
+                            </div>
                     </div>
                 
             </div>
@@ -463,7 +463,7 @@
      $('#ima').addClass('ima2');
      document.getElementById("t1").innerHTML = "Fros Tea";
      document.getElementById("t2").innerHTML = "Durazno";
-     document.getElementById("t3").innerHTML = "500ml";
+     document.getElementById("t3").innerHTML = "Contenido: 500ml";
      document.getElementById("t4").innerHTML = "Es una bebida natural y energética, con una variedad de sabores ligeramente astringente, agradable al gusto para el consumo de todas las personas.";
      document.getElementById('bot').src = "imagenes/otras/sliderdurazno.png";
      $('#t2').removeClass('colortexto2');
@@ -485,7 +485,7 @@
      $('#ima').addClass('ima3');
      document.getElementById("t1").innerHTML = "Agua Fros";
      document.getElementById("t2").innerHTML = "Mineral";
-     document.getElementById("t3").innerHTML = "600ml";
+     document.getElementById("t3").innerHTML = "Contenido: 600ml";
      document.getElementById("t4").innerHTML = "Producto 100% natural sin ningún tipo de procedimiento quimico, refrescante, natural y apto para toda tu familia.";
      document.getElementById('bot').src = "imagenes/otras/slideragua.png";
      $('#t2').removeClass('colortexto1');
@@ -506,7 +506,7 @@
      $('#ima').addClass('ima0');
      document.getElementById("t1").innerHTML = "Fros Tea";
      document.getElementById("t2").innerHTML = "Arándano";
-     document.getElementById("t3").innerHTML = "500ml";
+     document.getElementById("t3").innerHTML = "Contenido: 500ml";
      document.getElementById("t4").innerHTML = "Es una bebida natural y energética, con una variedad de sabores ligeramente astringente, agradable al gusto para el consumo de todas las personas.";
      document.getElementById('bot').src = "imagenes/otras/sliderarandano.png";
      $('#t2').removeClass('colortexto1');
