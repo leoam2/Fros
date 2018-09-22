@@ -47,7 +47,7 @@ transition:.25s all ease-out;
 
 
 .carousel img {
-    max-height: 700px;
+    max-height: 550px;
 }
 
 .intermedio{
@@ -207,8 +207,8 @@ transition:.25s all ease-out;
 	border-width: 3px;
     border-color: #A5A5A5;
     margin-top: 20px;
-    width: 200px;/*tamaño de los iconos eliminar esta medida y poner iconos mas grandes*/
-    height: 200px;
+    width: 150px;/*tamaño de los iconos eliminar esta medida y poner iconos mas grandes*/
+    height: 150px;
 }
 
 .pasos .row div:nth-child(3){
@@ -606,8 +606,8 @@ footer{
 }
 
 .tconoce{
-    font-size: 50px;
-    font-weight: 200;
+    font-size: 30px;
+    font-weight: 400;
     padding-top: 60px;
     line-height: 50px;
 }
@@ -636,6 +636,7 @@ footer{
 
     .iconsembrar{
         padding-bottom: 20px;
+        max-height: 200px;
     }
 
     .rel{
