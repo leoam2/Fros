@@ -419,8 +419,8 @@
                                                echo "<span class='alert alert-success center-block'>" . $_SESSION["message"] . "</span>";
                                            }
                                            session_unset();
-                                           ?>
-                                   </div>
+                                    ?>
+                            </div>
                     </div>
                 
             </div>
