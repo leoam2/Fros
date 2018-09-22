@@ -1,0 +1,669 @@
+/*defiene el tamaño del logo*/
+.logos{
+    max-height: 70px;
+    margin-top: 30px;
+}
+/*color de fondo del header*/
+header{
+    background-color: white;
+}
+
+/*define el color de fondo del menu de navegación*/
+.sticky-top{
+    background-color:white;
+}
+.colormenust{
+    background-color:rgba(255, 255, 255,0.8);
+}
+
+.itemsMenu a{
+    color: #25508E !important;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 30px;
+    padding-bottom: 0px;
+    border-bottom: 3px solid transparent;
+}
+.itemsMenu li{
+    padding-bottom: 7px;
+}
+.itemsMenu a:hover{
+border-bottom: 3px solid #25508E;
+
+transition:.25s all ease-out;
+-webkit-transition:.25s all ease-out;
+-moz-transition:.25s all ease-out;
+-o-transition:.25s all ease-out
+
+   
+}
+
+@media (max-width: 1300px){
+	.itemsMenu a{
+        margin-left: 10px;
+        font-size: 27px;
+	}
+}
+
+
+.carousel img {
+    max-height: 700px;
+}
+
+.intermedio{
+    height: 80px;
+    background-color: white;
+}
+
+.fondo1{
+    background-image: url(../imagenes/otras/quienesomos.png);
+    
+    background-size: cover;
+   
+}
+.texto{
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 991px){
+	.texto{
+        font-size: 2vw;
+	}
+}
+
+.texto2{
+    color: white;
+    font-size: 6vw !important;
+    font-weight: 600;
+    line-height: 0.9;
+
+}
+
+.dinterno{
+    height: 100%;
+}
+
+.titulo{
+    font-size: 35px;
+    font-weight: bold;
+    background-color: rgb(197, 163, 626);
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.colorfondo1{
+    background-color:white;
+    color: #736F70;
+}
+
+.fondo2{
+    background-image: url(../imagenes/otras/ambiente.jpg);
+    
+    background-size: cover;
+   
+}
+.colorfondo2{
+    background-color:white;
+    color: #736F70;
+}
+
+.titulo2{
+    font-size: 35px;
+    font-weight: bold;
+    background-color: rgb(107, 163, 226);
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+.fondo3{
+    background-image: url(../imagenes/otras/social.jpg);
+    
+    background-size: cover;
+   
+}
+.colorfondo3{
+    background-color:white;
+    color: #736F70;
+}
+.titulo3{
+    font-size: 35px;
+    font-weight: bold;
+    background-color: rgb(197, 123, 126);
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+@media (max-width: 500px){
+	.titulo2,.titulo3,.titulo{
+        font-size: 25px;
+	}
+}
+
+.cambio{
+    height: 170px;
+    font-size: 4vw;
+    font-weight: bold;
+}
+.cambio div {
+    height: 100%;
+}
+
+@media (max-width: 600px){
+	.cambio{
+        font-size: 7vw;
+	}
+}
+
+
+.tenemos{
+    height: 300px;
+    font-size: 2vw;
+    font-weight: bold;
+    background-color:#AFAFAF;
+    color: #736F70;
+    
+       
+}
+
+
+
+.tenemos div {
+    height: 100%;
+}
+
+@media (max-width: 600px){
+	.tenemos{
+        font-size: 4vw;
+        
+	}
+}
+@media (min-width: 1800px){
+	.tenemos{
+        font-size: 1vw;
+	}
+}
+
+@media (min-width: 601px) and (max-width: 900px){
+    .tenemos{
+        font-size: 3vw;
+	}
+}
+@media (min-width: 300px) and (max-width: 400px){
+    .tenemos{
+        font-size: 5vw;
+	}
+}
+.iconcircular{
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 3px;
+    border-color: #A5A5A5;
+    margin-top: 20px;
+    width: 200px;/*tamaño de los iconos eliminar esta medida y poner iconos mas grandes*/
+    height: 200px;
+}
+
+.pasos .row div:nth-child(3){
+    margin-bottom: 100px;
+    
+}
+
+.pasos{
+    min-height: 650px;
+}
+.titulopasos{
+    font-size: 4vw;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+@media (max-width: 800px){
+	.titulopasos{
+        font-size: 30px;
+	}
+}
+.textopasos{
+    font-size: 30px;
+    font-weight: bold;
+}
+.titulovalores{
+    font-size: 4vw;
+    font-weight: bold;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+@media (max-width: 800px){
+	.titulovalores{
+        font-size: 30px;
+	}
+}
+
+.textovalores{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+
+.titulovalores div {
+    border: 3px solid black;
+    width: 670px;
+}
+
+.textovalores2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.valores > div{
+    margin-bottom: 100px;
+    
+}
+
+@media (min-width: 1700px){
+	.titulovalores div {
+        width: 1200px;
+    }
+}
+
+.productos .titulovalores{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.image{
+    
+    background-image: url(../imagenes/otras/frost.jpg);
+    /*background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+   
+    position: absolute;*/
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    /*position: absolute;*/
+    min-height: 600px;
+    
+    
+}
+.image2{
+    
+    background-image: url(../imagenes/otras/paral2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+   
+   /* position: absolute;*/
+    z-index: 500;
+    min-height: 600px;
+    
+}
+.stuff {
+  
+    height: 100%;
+    width: 100%;
+    
+  
+    color:white;
+    font-size: 100px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1000;
+   
+   
+    }
+
+
+.paral p{
+    line-height: 1;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+@media (max-width: 960px){
+	.paral p {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 576px){
+	.paral p {
+        margin-left: 7vw;
+        margin-right: 7vw;
+        font-size: 40px;
+    }
+}
+/*@media (max-width: 575px){/*****************quitar imagen de paralax y poner color de fondo en menos de 575px**********************************************/
+  /*  .image {
+      background-image: none;
+      background-color: gray;
+    
+    }
+
+    .image2 {
+        background-image: none;
+        background-color: gray;
+      
+      }
+}*/
+
+
+/*.relativo{
+    position: relative;
+}*/
+
+
+.borde{
+    display: inline-block;
+    border: 10px solid white;
+    -webkit-box-shadow: 1px 6px 54px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 6px 54px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 6px 54px -1px rgba(0,0,0,0.75);
+}
+
+
+form{
+	margin: auto;
+	max-width: 1000px;
+
+}
+
+.text , textarea{
+	color: white;
+	font-size: 22px;
+    background-color: rgba(0, 0, 0,0.2);
+    border: none;
+	
+	
+	width: 100%;
+	outline: none;
+	margin-top: 20px;
+}
+::placeholder{
+	color: white;
+}
+
+textarea{
+	min-height: 150px;
+    max-height: 110px;
+    padding-left: 15px;
+}
+
+input{
+    height: 50px;
+    padding-left: 15px;
+}
+
+#boton{
+    margin-top: 15px;
+    margin-right: 0px;
+    padding-left: 10px;
+    border:none;
+    width: 100px;
+    color: #736F70;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.9);
+    -webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+}
+
+#boton:hover{
+	background-color: rgba(255,255,255, 1)
+}
+
+.titulocont{
+    font-size: 50px;
+    color: #736F70;
+    margin-top: 50px;
+}
+
+footer{
+    background-color: #AFAFAF;
+}
+
+.iconosfoot{
+    height: 40px;
+    margin-top: 25px;
+}
+
+.foot2{
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+
+.txticon{
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+.txtcas{
+    line-height: 0px;
+}
+
+
+.ima0{
+    background-image: url(../imagenes/otras/arandanofondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 850px;
+    
+}
+.ima2{
+    background-image: url(../imagenes/otras/duraznofondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 800px;
+}  
+.ima3{
+    background-image: url(../imagenes/otras/aguafondo.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    min-height: 800px;
+    
+}
+
+.Tfros{
+    padding-top: 50px;
+}
+
+.textoproduct1{
+    color:#736F70;
+    font-size: 70px;
+    font-weight: 600;
+    padding-top: 20px;
+    
+}
+
+.textoproduct1 p{
+    margin-bottom: 0px;
+}
+
+.textoproduct0{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 60px; 
+    
+    
+
+}
+.borde{
+    border-bottom: #736F70 solid 3px;
+    width: 30%;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 0px;
+    margin-bottom: 80px;
+}
+
+.frosparal{
+    max-height: 300px;
+}
+
+@media (max-width: 576px){
+	.textoproduct1{  
+        font-size: 60px;
+        
+    }
+}
+
+.textoproduct2{
+    color:#736F70;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.textoproduct3{
+    color:#736F70;
+    font-size: 25px;
+    font-weight: 400;
+}
+.colortexto1{
+    color: #DD6A13;
+}
+.colortexto2{
+    color: #D50C52;
+}
+.colortexto3{
+    color: #009CD8;
+}
+
+
+.colorboton1{
+    background-color: #DD6A13;
+    
+}
+.colorboton2{
+    background-color:  #D50C52;
+    
+}
+.colorboton3{
+    background-color: #009CD8;
+    
+}
+
+.click{
+    
+    border-radius: 30px;
+    width: 150px;
+    position: relative;
+    z-index: 3000;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color:white;
+    
+}
+#ima a:hover{
+    text-decoration:none; 
+}
+.anularpad{
+    padding-left: 0;
+    padding-right: 0;
+}
+.click p{
+    margin-bottom: 0px;
+}
+
+.botellaP{
+    position: absolute;
+    top: 100px;
+    left:0;
+    right:0;
+    padding-bottom: 30px;
+    z-index: 1000;
+    
+    
+}
+#bot{
+    max-height: 600px;
+}
+
+.b1{
+    height: 300px;
+    padding-bottom: 50px;
+}
+
+.tconoce{
+    font-size: 50px;
+    font-weight: 200;
+    padding-top: 60px;
+    line-height: 50px;
+}
+
+
+@media (max-width: 1199px){
+	.botellaP{
+        position: relative;
+    }
+    
+    .tconoce{
+        font-size: 30px;
+        font-weight: 300;
+        
+    }
+    .b1{
+        height: 200px;
+        
+    }
+
+    #bot{
+        max-height: 300px;
+    }
+}
+
+
+    .iconsembrar{
+        padding-bottom: 20px;
+    }
+
+    .rel{
+        position: relative;
+    }
+
+/*cambio de color de los iconos del slider principal*/
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  
+  
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color:#D1530A;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color:#D1530A;
+}
