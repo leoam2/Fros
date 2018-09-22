@@ -348,11 +348,11 @@
                 <div class="row">
 
                         <div class="col-lg-4">
-                                <div class="d-flex justify-content-center"><img class="iconsembrar" src="imagenes/iconos/semillastapa.png" alt="tapa con semillas"></div>
+                                <div class="d-flex justify-content-center"><img class="iconsembrar" src="imagenes/iconos/Semillastapa.png" alt="tapa con semillas"></div>
                                 <p class="text-center textopasos">Coge la  tapa de la<br/> botella</p>
                         </div>
                         <div class="col-lg-4">
-                                <div class="d-flex justify-content-center"><img class="iconsembrar" src="imagenes/iconos/sembrar.png" alt="sembrar tapa"></div>
+                                <div class="d-flex justify-content-center"><img class="iconsembrar" src="imagenes/iconos/Sembrar.png" alt="sembrar tapa"></div>
                                 <p class="text-center textopasos">Siembrala a una <br/> profundidad de 1 cm</p>
                         </div>
                         <div class="col-lg-4">
